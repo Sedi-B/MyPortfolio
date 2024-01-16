@@ -15,8 +15,8 @@ const Home = () => {
         <div className="text-black font-bold text-3xl mb-5">
           <p className="mb-4">Hi, I'm Rabecca Phoshoko</p>
           <p className="mb-4">
-            I am a junior software developer,
-            <br />a frontend developer for mobile applications and websites
+            I am a junior software developer and a frontend developer for mobile
+            applications and websites.
           </p>
         </div>
         <div className="flex justify-center space-x-4">

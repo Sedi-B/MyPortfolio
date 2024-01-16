@@ -33,7 +33,7 @@ const Experience = () => {
               Company:Limpopo Department of Cooperative Governance, Human
               Settlements and Traditional Affairs
             </h2>
-            <p>Position: Experiential Student (WIL inservce-training)</p>
+            <p>Position: Experiential Student (WIL inservice-training)</p>
             <p>Contract Period: August 2022 - January 2023</p>
             <p>
               Main Responsibilities: Perform a cost benefit analysis to produce
