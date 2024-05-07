@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex justify-center flex-col items-center bg-[url('')] py-8">
-      <div className="stop-1 text-black text-4xl mt-4 align-middle font-bold">
+    <section className="flex justify-center flex-col items-center bg-[url('')] py-8">
+      <div className="top-1 text-black text-4xl mt-4 align-middle font-bold">
         Get In Touch...
       </div>
 
@@ -23,24 +23,34 @@ const Contact = () => {
         </p>
       </div>
       <div className="bg-gray-200 p-8 md:w-1/2 rounded-lg my-2 shadow-lg">
-        <form className=" md:w-full ">
+        <h2 className="text-xl text-center font-bold mb-4 align-middle">
+          Contact Form
+        </h2>
+        <form action="/api/Contact" method="POST" className="md:w-full">
+          <label htmlFor="name" className="block mb-2">Name and Surname</label>
           <input
+            id="name"
+            type="text"
             className="w-full px-4 py-2 rounded-lg mb-2 bg-transparent border border-gray-500"
             placeholder="Name and Surname"
           />
-          <br />
+          <label htmlFor="email" className="block mb-2">Email</label>
           <input
+            id="email"
+            type="email"
             className="w-full px-4 py-2 rounded-lg mb-2 bg-transparent border border-gray-500"
             placeholder="Email"
           />
-          <br />
+          <label htmlFor="contacts" className="block mb-2">Contacts</label>
           <input
+            id="contacts"
+            type="text"
             className="w-full px-4 py-2 rounded-lg mb-2 bg-transparent border border-gray-500"
             placeholder="Contacts"
           />
-          <br />
-
+          <label htmlFor="message" className="block mb-2">Message</label>
           <textarea
+            id="message"
             className="w-full px-4 py-2 rounded-lg mb-2 bg-transparent border border-gray-500"
             rows="3"
             placeholder="Send me a message"
@@ -50,7 +60,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

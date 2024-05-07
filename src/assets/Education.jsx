@@ -43,6 +43,16 @@ const Education = () => {
           </div>{" "}
           <div className="bg-gray-200 rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-gray-800 mb-4">
+              Tertiary Education
+            </h3>
+            <p className="text-lg font-semibold">
+              Tswhane University of Technology
+            </p>
+            <p className="text-lg">Advance Dimploma in Computer Science : </p>
+            <p className="text-lg">Year Obtained: Currently Enrolling</p>
+          </div>
+          <div className="bg-gray-200 rounded-lg shadow-md p-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">
               Other Education Program
             </h3>
             <p className="text-lg  font-semibold">mlab CodeTribe Academy</p>
@@ -57,16 +67,7 @@ const Education = () => {
             </h6>
             <p className="text-lg">Enrolled in June to November 2023</p>
           </div>
-          <div className="bg-gray-200 rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">
-              Tertiary Education
-            </h3>
-            <p className="text-lg font-semibold">
-              Tswhane University of Technology
-            </p>
-            <p className="text-lg">Advance Dimploma in Computer Science : </p>
-            <p className="text-lg">Year Obtained: Currently Enrolling</p>
-          </div>
+          
         </div>
       </div>
     </section>
