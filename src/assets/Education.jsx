@@ -5,7 +5,7 @@ const Education = () => {
     <section className="py-12f lex-col">
       <div>
         {" "}
-        <h2 className=" top-0 text-emerald-500 text-4xl font-bold  mt-4 justify-center flex">
+        <h2 className="top-1 text-black text-4xl font-bold text-center p-2 mt-4"s>
           Education
         </h2>
       </div>

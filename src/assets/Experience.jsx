@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <div>
-      <h1 className="text-emerald-500 text-4xl font-bold text-center mt-8">
+      <h1 className="top-1 text-black text-4xl font-bold  mt-4 text-center">
         EXPERIENCE
       </h1>
       <section className="grid grid-cols-2 mt-5">

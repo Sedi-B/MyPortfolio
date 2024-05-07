@@ -13,7 +13,7 @@ const Home = () => {
 
       <div className="md:w-1/2 p-8">
         <div className="text-black font-bold text-3xl mb-5">
-          <p className="mb-4">Hi, I'm Rabecca Phoshoko</p>
+          <p className="mb-4">Hi,I'm Ramaesela Rabecca Phoshoko</p>
           <p className="mb-4">
             I am a junior software developer and a frontend developer for mobile
             applications and websites.
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center space-x-4">
           <Link
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl"
             to="/Contact"
           >
             {" "}
@@ -29,7 +29,7 @@ const Home = () => {
           </Link>
 
           <Link
-            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full"
+            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl"
             to="/About"
           >
             More About Me
