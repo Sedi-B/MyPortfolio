@@ -6,33 +6,34 @@ import About from "./About";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row justify-center items-center">
+    <div className="flex h-screen flex-col sm:flex-row items-center justify-center">
       <div className="md:w-1/2 flex justify-center">
-        <img className="h-80 w-80 rounded-full" src={frontpic} alt="profile" />
+        <img className="w-[50%] rounded-full" src={frontpic} alt="profile" />
       </div>
-
       <div className="md:w-1/2 p-8">
-        <div className="text-black font-bold text-3xl mb-5">
-          <p className="mb-4">Hi,I'm Ramaesela Rabecca Phoshoko</p>
+        <div className="text-center text-black mb-5">
+          <h1 className="font-bold text-4xl">
+            Hi,I'm Ramaesela Rabecca Phoshoko
+          </h1>
           <p className="mb-4">
-          I'm a Junior Frontend Developer focusing on mobile and web applications.
+            I'm a junior Frontend Developer focusing on mobile and web
+            applications.
           </p>
-        </div>
-        <div className="flex justify-center space-x-4">
-          <Link
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl"
-            to="/Contact"
-          >
-            {" "}
-            Hire Me Now
-          </Link>
+          <div className="flex justify-center space-x-4">
+            <Link
+              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl"
+              to="/Contact"
+            >
+              Contacts
+            </Link>
 
-          <Link
-            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl"
-            to="/About"
-          >
-            More About Me
-          </Link>
+            <Link
+              className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl"
+              to="/About"
+            >
+              More About Me
+            </Link>
+          </div>
         </div>
       </div>
     </div>
